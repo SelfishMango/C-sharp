@@ -1,0 +1,305 @@
+using System;
+class HelloWorld
+{
+  static void Main ()
+  {
+
+    int p = 0;
+      Console.WriteLine ("1. Choose an option: ");
+      Console.WriteLine ("a) Coca Cola           b) B-fizz");
+      Console.WriteLine ("c) Mountain Dew        d) Pepsi/ThumpsUp");
+    string a = Console.ReadLine ();
+
+    if (a == "a")
+      {
+
+	for (int i = 0; i < 20; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+
+    else if (a == "b")
+      {
+
+	for (int i = 0; i < 40; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    else if (a == "c")
+      {
+
+	for (int i = 0; i < 80; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    else if (a == "d")
+      {
+
+	for (int i = 0; i < 10; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    Console.WriteLine (p);
+
+    Console.WriteLine ("2. Choose an option: ");
+    Console.WriteLine ("a) Wolverine           b) Wonder Woman");
+    Console.WriteLine ("c) Captain Marvel      d) Batman");
+    string b = Console.ReadLine ();
+
+    if (b == "a")
+      {
+
+	for (int i = 0; i < 40; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+
+      }
+
+    if (b == "b")
+      {
+
+	for (int i = 0; i < 5; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    if (b == "c")
+      {
+
+	for (int i = 0; i < 70; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    if (b == "d")
+      {
+
+	for (int i = 0; i < 60; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    Console.WriteLine (p + " Total Points");
+
+    Console.WriteLine ("3. Choose an option: ");
+    Console.WriteLine ("a) Pilot           b) Reader");
+    Console.WriteLine ("c) Engineer        d) Writer");
+    string c = Console.ReadLine ();
+
+    if (c == "a")
+      {
+
+	for (int i = 0; i < 10; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+
+      }
+
+    if (c == "b")
+      {
+
+	for (int i = 0; i < 30; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    if (c == "c")
+      {
+
+	for (int i = 0; i < 50; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    if (c == "d")
+      {
+
+	for (int i = 0; i < 90; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    Console.WriteLine (p + " Total Points");
+
+    Console.WriteLine ("4. Choose an option: ");
+    Console.
+      WriteLine ("a) kill Kim Jong-un           b) kill Terrorists - 500");
+    Console.
+      WriteLine ("c) kill Xi Jinping            d) kill Criminals - 10,000");
+    string d = Console.ReadLine ();
+
+    if (d == "a")
+      {
+
+	for (int i = 0; i < 80; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+
+      }
+
+    if (d == "b")
+      {
+
+	for (int i = 0; i < 40; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    if (d == "c")
+      {
+
+	for (int i = 0; i < 60; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    if (d == "d")
+      {
+
+	for (int i = 0; i < 50; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    Console.WriteLine (p + " Total Points");
+
+    Console.WriteLine ("5. Choose an option: You have $1,00,00,00 ");
+    Console.WriteLine ("a) Donate 10k           b) 50k");
+    Console.WriteLine ("c) 100k                 d) 500k");
+    string e = Console.ReadLine ();
+
+    if (e == "a")
+      {
+
+	for (int i = 0; i < 10; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+
+      }
+
+    if (e == "b")
+      {
+
+	for (int i = 0; i < 110; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    if (e == "c")
+      {
+
+	for (int i = 0; i < 70; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    if (e == "d")
+      {
+
+	for (int i = 0; i < 5; i++)
+	  {
+
+	    p++;
+
+	  }
+
+
+      }
+    Console.WriteLine (p + " Total Points");
+
+    if (p == 430)
+      {
+
+	Console.WriteLine ("Congratulations You Got A+ Rank");
+	Console.
+	  WriteLine
+	  ("$95,00,00 will be Transfered to Your bank Account in 2-5 Days");
+
+      }
+
+  }
+}
